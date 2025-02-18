@@ -26,7 +26,7 @@ class Profesor:
         return f'"Profesor({self.nombre}, {self.especialidad}, {self.cursos_asignados})"'
 
     @classmethod
-    def desde_tupla(cls, tupla):
+    def desde_tupla(cls,tupla):
         return cls(*tupla)
 
     @staticmethod
