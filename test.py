@@ -13,3 +13,4 @@ if __name__ == "__main__":
     h2 = horario.Horario("Martes", "10:00", "12:00")
     a1 = asignatura.Asignatura("Matemáticas", 'M1', "matematicas 1")
     a2 = asignatura.Asignatura("Física", 'F1', "fisica 1")
+    aula1 = aula.Aula("Aula 1", 30, "A1")
